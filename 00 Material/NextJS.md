@@ -73,6 +73,15 @@ Next.js simplifies the process of building a web application for production
 - Every file that corresponding to a route must be named `page.js` or `page.tsx`
 - Every folder corresponds to a path segment in the browser URL.
 - When you run the application and load the route, automatically NextJS creates the `layout.tsx` file
+- If route not available NextJS throws 404 NotFound page.
+
+### Types of Routes
+
+1. normal routing
+2. nested routing
+3. dynamic routing : [productId]
+4. nested dynamic routing
+5. catch all segments
 </details>
 
 ---
