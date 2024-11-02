@@ -10,6 +10,7 @@
 - Folder Structure
 - Components
 - Routing
+- Private Folders
 - Documentation
 </details>
 
@@ -117,6 +118,36 @@ Next.js simplifies the process of building a web application for production
 2. nested routing
 3. dynamic routing : [productId]
 4. nested dynamic routing
+5. routes group
+
+## Routes Group : (folderName)
+
+- Allows us to logically group our routes and project files without affecting the URL path structure.
+- Let's implement authentication routes.
+
+```
+- auth
+
+  - register
+  - login
+  - forgot-password
+
+- `http://localhost:3000/auth/register`
+- `http://localhost:3000/auth/login`
+- `http://localhost:3000/auth/forgot-password`
+```
+
+```
+- (auth)
+
+  - register
+  - login
+  - forgot-password
+
+- `http://localhost:3000/register`
+- `http://localhost:3000/login`
+- `http://localhost:3000/forgot-password`
+```
 
 </details>
 
@@ -127,7 +158,7 @@ Next.js simplifies the process of building a web application for production
 
 ## Private Folders
 
-- A private folder indicates that it is a private implementation detail and should not be considered by the routing system.
+- A private folder should not be considered by the routing system.
 - The private folder and all its sub-folders are excluded from routing.
 - prefix the folder name with an underscore.
 
@@ -137,39 +168,6 @@ Next.js simplifies the process of building a web application for production
 - For consistently organizing internal files across a project.
 - For avoiding potential naming conflicts with future Next.js file convention.
 - If you want to include an underscore in URL segments, you can prefix the folder name with "%5F", which is the URL-encoded from of an underscore.
-
-</details>
-
----
-
-<details>
-<summary>Route Groups</summary>
-
-## Route Groups : (folderName)
-
-- To organize your project in a manner that doesn't affect the URL.
-- Allows us to logically group our routes and project files without affecting the URL path structure.
-- Let's implement authentication routes.
-
-- auth
-
-  - register
-  - login
-  - forgot-password
-
-- `http://localhost:3000/auth/register`
-- `http://localhost:3000/auth/login`
-- `http://localhost:3000/auth/forgot-password`
-
-- (auth)
-
-  - register
-  - login
-  - forgot-password
-
-- `http://localhost:3000/register`
-- `http://localhost:3000/login`
-- `http://localhost:3000/forgot-password`
 
 </details>
 
@@ -226,8 +224,6 @@ Next.js simplifies the process of building a web application for production
 - To enable client-side navigation Next.js provides us with the Link component.
 - The `<Link>` component is a React component that extends the HTML `<a>` element, and it's the primary way to navigate between routes in Next.js.
 - To use it, we need to import it from "next/link".
-
-### Active Links
 
 </details>
 
