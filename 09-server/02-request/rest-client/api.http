@@ -1,0 +1,27 @@
+### Get All Comments
+GET http://localhost:3000/api/comments
+
+### Add a Comment
+POST http://localhost:3000/api/comments
+Content-Type: application/json
+
+{
+    "text":"New Comment"
+}
+
+### Get Single Comment by Id
+@id=3
+GET http://localhost:3000/api/comments/{{id}}
+
+### Patch a Comment by Id
+@id=3
+PATCH http://localhost:3000/api/comments/{{id}}
+Content-Type: application/json
+
+{
+    "text":"Updated Comment"
+}
+
+### Delete a Comment by Id
+@id=1
+DELETE http://localhost:3000/api/comments/{{id}}

@@ -11,6 +11,10 @@
 - Components
 - Routing
 - Private Folders
+- Layouts
+- Routing Metadata
+- Navigation
+- Server
 - Documentation
 </details>
 
@@ -227,6 +231,15 @@ Next.js simplifies the process of building a web application for production
 
 1. Normal Navigation
 2. Navigation Programmatically
+</details>
+
+---
+
+<details>
+<summary>Server</summary>
+
+## Server
+
 </details>
 
 ---
