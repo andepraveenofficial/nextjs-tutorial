@@ -1,0 +1,13 @@
+### Get api
+GET http://localhost:3000/api
+
+
+### Get dashboard
+GET http://localhost:3000/api/dashboard
+
+
+### Get users
+GET http://localhost:3000/api/dashboard/users
+
+### Get Profile
+GET http://localhost:3000/profile/api

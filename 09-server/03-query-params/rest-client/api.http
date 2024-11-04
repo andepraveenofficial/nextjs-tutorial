@@ -1,0 +1,7 @@
+### Get Comments by query params
+GET http://localhost:3000/api/comments?query=first
+
+
+### Get Single Comment by Id
+@id=4
+GET http://localhost:3000/api/comments/{{id}}
