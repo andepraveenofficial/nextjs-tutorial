@@ -18,6 +18,20 @@
 - For production builds, a page will be pre-rendered once when we run the build command.
 - In development mode, a page will be pre-rendered for every request.
 
+### Prefetching
+
+- Prefetching is a technique used to preload a route in the background before the user navigates to it.
+- Routes are automatically prefetched as they become visible in the user's viewport, either when the page first loads or as it comes into view through scrolling.
+- For static routes, the entire route is prefetched and cached by default.
+- When we load the homepage, Next.js prefetches the About and Dashboard routes, keeping them ready for instant navigation.
+
+### Static Rendering Summary
+
+- Static rendering is a strategy where the HTML is generated at build time.
+- Along with the HTML, the RSC payload is created for each component, and Javascript chunks are produced for client-side component hydration in the browser.
+- If you navigate directly to a page route, the corresponding HTML file is served.
+- Static rendering is great for performance and use cases include blogs, documentation, marketing pages etc.
+
 ### Installation
 
 - `npm install`
