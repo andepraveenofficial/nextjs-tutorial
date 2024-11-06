@@ -1,0 +1,35 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "title": "Wireless Bluetooth Headphones",
+        "price": 59.99,
+        "description": "High-quality wireless headphones with noise-cancellation feature."
+      },
+      {
+        "id": 2,
+        "title": "Smartphone Stand",
+        "price": 15.99,
+        "description": "Adjustable smartphone stand, perfect for video calls and media consumption."
+      },
+      {
+        "id": 3,
+        "title": "Portable Charger",
+        "price": 29.99,
+        "description": "10,000mAh portable charger with fast-charging capabilities."
+      },
+      {
+        "id": 4,
+        "title": "Smart LED Light Bulb",
+        "price": 12.99,
+        "description": "WiFi-enabled LED light bulb with color-changing options, compatible with voice assistants."
+      },
+      {
+        "id": 5,
+        "title": "Stainless Steel Water Bottle",
+        "price": 19.99,
+        "description": "Insulated water bottle, keeps beverages cold for 24 hours and hot for 12 hours."
+      }
+    ]
+  }
+  
